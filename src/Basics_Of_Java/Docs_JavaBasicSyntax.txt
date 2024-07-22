@@ -1,0 +1,26 @@
+Chương trình Java là ngôn ngữ lập trình hướng đối tượng, có nghĩa là java là tập hợp các đối tượng và các đối tượng này giao tiếp với nhau thông qua các lệnh gọi phương thức để làm việc cùng nhau. Đây là một cuộc thảo luận ngắn gọn về Lớp và Đối tượng, Phương thức, biến thể hiện, cú pháp và ngữ nghĩa của Java.
+
+Các thuật ngữ cơ bản trong Java:
+1. Class: Lớp là bản thiết kế (kế hoạch) thể hiện của một lớp (đối tượng). Nó có
+thể được định nghĩa như một mẫu logic chia sẻ các thuộc tính và phương thức chung.
+Ví dụ: Bản thiết kế của ngôi nhà là 1 class ( class House , Trong thế giới thực,
+ Alice là đối tượng của lớp “Con người”.
+
+2. Object: Đối tượng là một thể hiện của một lớp. Nó là một thực thể có hành vi và trạng thái.
+Ví dụ: Chó, Mèo, Khỉ, v.v. là đối tượng của lớp “Động vật”.
+Hành vi: Chạy trên đường.
+
+3. Method: Hành vi của một đối tượng chính là phương thức.
+Ví dụ: Chó chạy trên đường.
+
+4. Instance variables: Mỗi đối tượng có một tập hợp biến thực thể duy nhất của riêng nó.
+Trạng thái của một đối tượng thường được tạo bởi các giá trị được gán cho các biến thể hiện này.
+
+Lưu ý: Khi lớp ở chế độ công khai thì tên file phải là tên lớp.
+
+Chữ cái đầu tiên của lớp phải ở dạng chữ hoa (cho phép viết chữ thường nhưng không khuyến khích).
+
+Tất cả các tên phương thức phải bắt đầu bằng chữ cái viết thường (chữ hoa cũng được cho phép nhưng chữ thường được khuyến khích).
+public void employeeRecords() // valid syntax
+
+
