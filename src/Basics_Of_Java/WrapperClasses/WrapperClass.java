@@ -13,6 +13,22 @@ package Basics_Of_Java.WrapperClasses;
     - Trên dữ liệu đối tượng, chúng ta có thể gọi nhiều phương thức so sánhTo(), bằng(), toString()
     - Dữ liệu đối tượng cho phép giá trị null.
 
+    Autoboxing
+    Autoboxing là quá trình tự động chuyển đổi từ kiểu dữ liệu nguyên thủy thành đối tượng của lớp wrapper tương ứng.
+    Java thực hiện việc này tự động khi cần thiết, giúp mã nguồn trở nên gọn gàng và dễ đọc hơn.
+
+    Unboxing
+    Unboxing là quá trình tự động chuyển đổi từ một đối tượng wrapper thành kiểu dữ liệu nguyên thủy tương ứng.
+    Java thực hiện việc này tự động khi cần thiết.
+
+    Khi nào sử dụng Autoboxing và Unboxing
+    Autoboxing và unboxing giúp làm việc với các kiểu dữ liệu nguyên thủy và đối tượng dễ dàng hơn,
+    đặc biệt là khi sử dụng các cấu trúc dữ liệu như Collections (ví dụ: ArrayList, HashMap) vốn chỉ làm việc với các đối tượng,
+    không làm việc trực tiếp với các kiểu dữ liệu nguyên thủy.
+
+
+
+
  */
 public class WrapperClass {
     public static void main(String[] args) {
@@ -23,5 +39,10 @@ public class WrapperClass {
         Character l;
         System.out.println(a.compareTo(1));
 
+        int primitiveInt = 10;
+        Integer wrapperInt = primitiveInt; // Autoboxing từ int thành Integer
+
+        Integer wrapperInt1 = 20;
+        int primitiveInt1 = wrapperInt1; // Unboxing từ Integer thành int
     }
 }
