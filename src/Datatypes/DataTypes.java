@@ -1,6 +1,4 @@
-package Basics_Of_Java;
-
-import java.util.Objects;
+package Datatypes;
 
 public class DataTypes {
     public static void main(String[] args) {
@@ -23,6 +21,8 @@ public class DataTypes {
         //Kiểu dữ liệu không nguyên thủy hoặc kiểu dữ liệu tham chiếu
         //String
         String string = "GeeksforGeeks";
+
+
 
 
 

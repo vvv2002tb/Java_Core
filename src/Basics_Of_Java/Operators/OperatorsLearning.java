@@ -15,7 +15,8 @@ public class OperatorsLearning {
 //        relationalOperators();
 //        logicalOperators();
 //        ternaryOperator();
-        instanceofOperator();
+//        instanceofOperator();
+        assignmentOperators();
     }
 
 
@@ -48,6 +49,9 @@ public class OperatorsLearning {
 
     public static void assignmentOperators() {
         // "=", "+=", "-=" "*=", "/=", "%="
+        int x = 4;
+        x += 4;
+        System.out.println(x);
 
     }
 
