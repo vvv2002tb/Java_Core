@@ -4,7 +4,7 @@ This repo for learning Jave Core
 - Data Types and Variables ✅
 - Features and Architecture ✅
 - Operator and Expressions ✅
-- String Class ❌
+- String Class ✅
 - Conditional Statements and Loops ❌
 - OOPs Concept in Depth ❌
 - Multithreading ❌
