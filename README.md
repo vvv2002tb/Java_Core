@@ -5,7 +5,8 @@ This repo for learning Jave Core
 - Features and Architecture ✅
 - Operator and Expressions ✅
 - String Class ✅
-- Conditional Statements and Loops ❌
+- Conditional Statements and Loops ✅
+- Array ✅
 - OOPs Concept in Depth ❌
 - Multithreading ❌
 JAVA IO Streams ❌
