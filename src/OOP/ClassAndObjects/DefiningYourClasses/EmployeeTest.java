@@ -1,4 +1,4 @@
-package ClassAndObjects.DefiningYourClasses;
+package OOP.ClassAndObjects.DefiningYourClasses;
 
 public class EmployeeTest {
     public static void main(String[] args) {
