@@ -1,0 +1,13 @@
+Tìm hiểu về ghi đè phương thức trong Java (Override)
+
+- Ghi đè phương thức là một tính năng then chốt cho phép các lớp con xác định lại các hành vi được kế thừa từ siêu lớp của chúng.
+
+- Khi một phương thức được ghi đè, phương thức của lớp con sẽ thay thế phương thức của lớp cha trong mọi trường hợp.
+
+- Ghi đè phương thức có thể được sử dụng để cung cấp các triển khai khác nhau cho các phương thức cụ thể dựa trên các đối tượng khác nhau.
+
+- Để ghi đè một phương thức, phương thức của lớp con phải có cùng tên, số lượng và kiểu dữ liệu của các tham số, cùng kiểu trả về và cùng phạm vi truy cập như phương thức của lớp cha.
+
+- Không thể ghi đè phương thức static và final.
+
+- Phương thức private không thể được ghi đè.
