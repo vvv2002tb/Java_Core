@@ -1,0 +1,19 @@
+- Đôi khi, các lập trình viên cần sử dụng một lớp nhỏ chỉ cần ghi đè một số phương thức của một lớp hoặc interface nào đó chỉ một lần. Trong trường hợp này, việc khai báo một lớp mới có thể là thừa thãi. May mắn thay, Java cung cấp một cơ chế để tạo ra một lớp chỉ trong một câu lệnh mà không cần phải khai báo một lớp có tên mới. Những lớp như vậy được gọi là lớp ẩn danh vì chúng không có các định danh tên như String hoặc MyClass (nhưng chúng có một tên nội bộ).
+
+- Anonymous class được sử dụng khi bạn cần một class mà chỉ sử dụng một lần, hoặc khi bạn muốn định nghĩa một class mà không cần phải định nghĩa một class cụ thể.
+
+- Các lớp ẩn danh cho phép bạn khai báo và khởi tạo một lớp cùng một lúc.
+
+- Một lớp ẩn danh luôn triển khai một giao diện hoặc mở rộng một lớp khác.
+Vd: new SuperClassOrInterfaceName() {
+
+    // fields
+
+    // overridden methods
+};
+
+- Cú pháp của một lớp ẩn danh là một biểu thức. Và nó tương tự như lệnh gọi hàm tạo ngoại trừ việc có một định nghĩa lớp được chứa trong một khối mã.
+
+
+
+
