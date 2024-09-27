@@ -1,0 +1,16 @@
+Interface là một khái niệm quan trọng trong lập trình hướng đối tượng (OOP). Interface là một khái niệm trừu tượng, không có phần thực thi, chỉ là một tập hợp các phương thức trừu tượng (abstract methods) và các hằng số (constants). Interface được sử dụng để định nghĩa một tập hợp các phương thức mà một lớp phải triển khai.
+
+
+Tại sao cần sử dụng interface?
+- Tóm lại, đoạn này nói về tính trừu tượng trong lập trình hướng đối tượng (OOP). Thay vì quan tâm đến tất cả các chi tiết của một đối tượng thực tế (ví dụ: một cây bút chì), chúng ta chỉ tập trung vào những đặc điểm quan trọng nhất để đại diện cho nó trong chương trình. Ví dụ, đối với bút chì, tính năng chính là khả năng vẽ, còn các yếu tố như chất liệu hay độ dài chỉ là thứ yếu. Điều này giúp đơn giản hóa và tập trung vào những chức năng cốt lõi của đối tượng trong lập trình.
+
+- Hãy tưởng tượng bạn cần thiết kế một chương trình chỉnh sửa đồ họa. Vẽ là chức năng cơ bản của chương trình. Công cụ này sẽ yêu cầu người dùng chọn một công cụ vẽ trước khi họ có thể vẽ bất cứ thứ gì. Họ có thể chọn bút, bút chì, cọ, bút đánh dấu, bút dạ, bình xịt, v.v. Mỗi công cụ trong bộ này có các thuộc tính cụ thể – dấu vết để lại bởi bút chì và bình xịt không giống nhau, và điều đó quan trọng. Tuy nhiên, tất cả những công cụ này đều chia sẻ một tính năng quan trọng chung: khả năng vẽ.
+
+- Một class có thể triển khai nhiều interface, nhưng một class không thể kế thừa nhiều class.
+
+
+
+
+
+
+
