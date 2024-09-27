@@ -1,0 +1,27 @@
+Một số lỗi trong mã của bạn không ngăn chương trình chạy và trong trường hợp này, chương trình sẽ chỉ gặp sự cố khi cố gắng thực thi một dòng "bị hỏng": một dòng có lỗi được gọi là ngoại lệ. Do đó, ngoại lệ là các lỗi được phát hiện trong quá trình thực thi chương trình (trong thời gian chạy), trong khi lỗi cú pháp là những lỗi được phát hiện trong quá trình biên dịch chương trình thành mã byte. Một ngoại lệ làm gián đoạn việc thực thi bình thường của một chương trình.
+
+------------------------------------------------------------------------------------------
+
+1. Throwable
+- Throwable là lớp cơ sở cho tất cả các loại ngoại lệ trong Java. Nó có hai loại con chính: Error và Exception.
+- Tất cả các loại ngoại lệ mà bạn gặp phải trong Java đều bắt nguồn từ lớp Throwable.
+2. Error
+- Error đại diện cho các lỗi nghiêm trọng mà ứng dụng không thể xử lý. Thường thì những lỗi này liên quan đến môi trường hoạt động (như thiếu bộ nhớ) và không thể phục hồi được từ chúng.
+- Ví dụ: OutOfMemoryError, StackOverflowError.
+3. Exception
+- Exception là lớp cha cho tất cả các loại ngoại lệ có thể xảy ra trong một ứng dụng. Nó được chia thành hai loại chính: Checked Exceptions và Unchecked Exceptions.
+4. Checked Exceptions
+- Các ngoại lệ này phải được khai báo trong phương thức hoặc phải được xử lý bằng khối try-catch. Nếu không, chương trình sẽ không biên dịch được.
+- Ví dụ: FileNotFoundException, IOException, IllegalAccessException.
+5. Unchecked Exceptions
+- Các ngoại lệ này không cần phải được khai báo hoặc xử lý. Chúng thường xảy ra trong quá trình thực thi và thường là kết quả của lỗi lập trình.
+- Ví dụ: RuntimeException là lớp cha cho các ngoại lệ không được kiểm tra. Các ví dụ bao gồm:
+- ArithmeticException: xảy ra khi thực hiện phép toán không hợp lệ như chia cho 0.
+- NumberFormatException: xảy ra khi cố gắng chuyển đổi chuỗi không phải số thành kiểu số.
+- NullPointerException: xảy ra khi cố gắng truy cập phương thức hoặc thuộc tính của một đối tượng mà chưa được khởi tạo.
+Tóm tắt
+- Throwable là lớp cha cho tất cả các ngoại lệ.
+- Error là các lỗi nghiêm trọng mà không thể xử lý.
+- Exception là lớp cho các ngoại lệ có thể xử lý được, bao gồm Checked Exceptions (cần khai báo) và Unchecked Exceptions (không cần khai báo).
+
+
