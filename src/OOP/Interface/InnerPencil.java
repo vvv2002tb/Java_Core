@@ -13,6 +13,7 @@ interface DrawingTool {
         
     default void defaultMethod() {
         System.out.println("Interface: default method");
+        privateMethod();
     }
 
     private void privateMethod() {
