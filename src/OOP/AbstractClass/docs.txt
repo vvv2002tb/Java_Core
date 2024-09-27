@@ -1,0 +1,12 @@
+- Đôi khi bạn có một tập hợp các trường và phương thức mà bạn cần sử dụng lại trong tất cả các lớp trong hệ thống phân cấp. Có thể đặt tất cả các thành viên chung vào một lớp cơ sở đặc biệt và sau đó khai báo các lớp con có thể truy cập các thành viên này. Đồng thời, bạn không cần tạo các đối tượng của lớp cơ sở. Để đạt được điều đó, bạn có thể sử dụng lớp trừu tượng làm lớp cơ sở trong hệ thống phân cấp.
+
+- Lớp trừu tượng là một lớp cơ sở đặc biệt, không thể được sử dụng để tạo các đối tượng. Nó cung cấp một cấu trúc chung cho các lớp con và có thể cung cấp các phương thức mặc định để các lớp con có thể sử dụng.
+
+- Lớp trừu tượng là lớp được khai báo với từ khóa abstract. 
+
+- Các lớp trừu tượng có một số tính năng đặc biệt:
+  - không thể tạo một thể hiện của một lớp trừu tượng.
+  - một lớp trừu tượng có thể chứa các phương thức trừu tượng phải được triển khai trong các lớp con không trừu tượng.
+  - nó có thể chứa các trường và các phương thức không trừu tượng (bao gồm cả tĩnh).
+  - một lớp trừu tượng có thể mở rộng một lớp khác, bao gồm cả lớp trừu tượng
+  - nó có thể chứa một hàm tạo.
