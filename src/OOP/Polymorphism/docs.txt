@@ -1,0 +1,10 @@
+- Polymorphism là khả năng của một đối tượng thay đổi hành vi của nó tùy thuộc vào kiểu của nó.
+
+- Polymorphism có 2 loại: compile-time polymorphism (static polymorphism) và runtime polymorphism (dynamic polymorphism).
+
+- Compile-time polymorphism (Tính đa hình tại thời gian biên dịch): được thực hiện thông qua overloading (tải lại phương thức). Điều này xảy ra khi bạn có nhiều phương thức trong cùng một lớp với cùng tên nhưng khác nhau về số lượng hoặc kiểu tham số.
+
+- Runtime polymorphism (Tính đa hình tại thời gian chạy): được thực hiện thông qua overriding (ghi đè phương thức). Điều này xảy ra khi bạn có hai lớp con kế thừa từ một lớp cha và mỗi lớp con có một phương thức có cùng tên nhưng khác nhau về hành vi.
+
+- Polymorphism là một trong những khái niệm cốt lõi trong lập trình hướng đối tượng (OOP) và được sử dụng rộng rãi trong Java.
+
