@@ -1,0 +1,23 @@
+Java Virtual Machine (JVM)
+- Máy ảo Java hay JVM là một mô phỏng ảo của máy tính vật lý. Nó thực thi mã byte Java (hoặc tương thích với Java), mã này xuất hiện sau quá trình biên dịch mã nguồn. Theo một nghĩa nào đó, JVM đóng vai trò trung gian giữa mã và máy thực. Nó hoạt động với một tập hợp các hướng dẫn mã byte thống nhất được giải thích và dịch sang các hướng dẫn máy.
+
+Giả sử bạn viết một chương trình Java đơn giản:
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+- Biên dịch: Khi bạn biên dịch chương trình này, nó sẽ tạo ra một file có đuôi .class chứa mã bytecode.
+- Chạy: Khi bạn chạy chương trình, JVM sẽ nạp mã bytecode từ file .class, chuyển đổi nó thành mã máy và thực thi, cho ra kết quả "Hello, World!" trên màn hình.
+
+Bộ công cụ phát triển Java (JDK)
+1. Định Nghĩa JDK
+Java Development Kit (JDK) là một bộ công cụ cần thiết để phát triển ứng dụng Java. Nó bao gồm tất cả các thành phần cần thiết để biên dịch, chạy và gỡ lỗi các ứng dụng Java.
+
+2. Các Thành Phần Của JDK
+Java Runtime Environment (JRE): Đây là thành phần cho phép bạn chạy các ứng dụng Java. JRE bao gồm Java Virtual Machine (JVM) và các thư viện cần thiết để thực thi mã Java.
+Java Compiler: Là công cụ để biên dịch mã nguồn Java (.java files) thành bytecode (.class files) mà JVM có thể hiểu và thực thi.
+Debugging Tools: Các công cụ hỗ trợ gỡ lỗi để giúp lập trình viên tìm và sửa lỗi trong mã.
+Documentation Generator: Công cụ để tạo tài liệu từ mã nguồn Java, giúp lập trình viên dễ dàng tạo ra tài liệu hướng dẫn sử dụng cho các thư viện hoặc ứng dụng của mình.
+Archiver (jar): Công cụ để đóng gói nhiều file .class và tài nguyên khác thành một file Java Archive (JAR), giúp dễ dàng lưu trữ và phân phối.
