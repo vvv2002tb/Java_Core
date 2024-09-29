@@ -1,0 +1,20 @@
+- Build tool là  một chương trình tự động hóa quá trình tạo các ứng dụng thực thi từ mã nguồn. Quá trình xây dựng bao gồm việc biên dịch các nguồn, liên kết và đóng gói mã thành dạng có thể sử dụng được hoặc có thể thực thi được.
+
+What can build tool do?
+- Tải các thư viện phụ thuộc
+- Biên dịch mã nguồn
+- Liên kết các thư viện và mã nguồn
+- Bạn sẽ có một kho lưu trữ ứng dụng sẵn sàng cho sản xuất như JAR, APK hoặc một số loại khác.
+- Chạy thử nghiệm
+- Triển khai vào môi trường sản xuất.
+
+Có 3 công cụ build tool phổ biến:
+1. Maven
+ - Apache Maven được phát hành vào năm 2004 và hiện là một trong những lựa chọn phổ biến nhất cho các nhà phát triển Java (đặc biệt là phát triển phía máy chủ). Nhiều dự án, cả cũ và mới, sử dụng Maven làm công cụ xây dựng vì khả năng quản lý phụ thuộc mạnh mẽ của nó.
+ 
+2. Gradle
+ - Gradle là một công cụ mới so với Ant và Maven. Nó được phát hành vào năm 2007 và hiện là tiêu chuẩn cho các ứng dụng Android. Ngoài ra, các nhà phát triển sử dụng nó cho phát triển máy chủ và máy tính để bàn. Gradle nhằm mục đích "kết hợp sức mạnh và tính linh hoạt của Ant với quản lý phụ thuộc và quy ước của Maven thành một cách hiệu quả hơn để xây dựng."
+
+3. Ant
+- Ít sử dụng hơn
+
