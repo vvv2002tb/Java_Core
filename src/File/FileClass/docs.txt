@@ -1,0 +1,3 @@
+- Thông thường, một chương trình cần xử lý và lưu trữ dữ liệu nằm bên ngoài cơ sở mã: cài đặt cấu hình, một số bộ dữ liệu để xử lý, nhật ký thực thi, v.v. Cách đơn giản nhất để lưu trữ dữ liệu là sử dụng các tệp được hỗ trợ bởi tất cả các hệ điều hành hiện đại. Bạn có thể coi tệp là tập hợp dữ liệu được lưu trữ trên đĩa hoặc thiết bị khác và có thể được xử lý dưới dạng một đơn vị khi được xử lý bằng tên của nó. Các tệp có thể được tổ chức thành các thư mục hoạt động như các thư mục cho các tệp và thư mục khác.
+
+
