@@ -7,7 +7,7 @@ This repo for learning Jave Core
 - String Class ✅
 - Conditional Statements and Loops ✅
 - Array ✅
-- OOPs Concept in Depth ❌
+- OOPs Concept in Depth ✅
 - Multithreading ❌
 JAVA IO Streams ❌
 - Collection Framework ❌
