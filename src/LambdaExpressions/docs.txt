@@ -1,0 +1,25 @@
+- Theo biểu thức lambda (hoặc chỉ "lambda"), chúng tôi muốn nói đến một hàm không bị ràng buộc với tên của nó (hàm ẩn danh) nhưng có thể được gán cho một biến.
+
+- Cấu trúc biểu thức lambda: (parameters) -> expression
+
+- Ví dụ:
+
+(x, y) -> x + y
+
+- Biểu thức lambda có thể được sử dụng để truyền một hàm như một đối số cho một phương thức khác.
+
+Nếu biểu thức lamda nhiều đối số, hay nhiều dòng, hay có cả return thì cần đặt trong cặp dấu ngoặc nhọn.
+
+Ví dụ:
+
+(x, y) -> {
+    int result = x + y;
+    return result;
+}
+
+- Hoặc đôi khi không cần tham số, thì có thể bỏ qua dấu ngoặc nhọn.
+
+Ví dụ:
+
+() -> System.out.println("Hello World");
+
